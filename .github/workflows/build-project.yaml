@@ -27,3 +27,6 @@ jobs:
 
       - name: Build project with Fabric8 plugin
         run: mvn clean verify -Pbuild-with-fabric-8
+
+      - name: Build project with JIB plugin
+        run: mvn clean verify -Pbuild-with-jib
