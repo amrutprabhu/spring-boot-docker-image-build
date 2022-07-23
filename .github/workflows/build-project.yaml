@@ -26,4 +26,4 @@ jobs:
         run: mvn clean verify spring-boot:build-image
 
       - name: Build project with Fabric8 plugin
-          run: mvn clean verify -Pbuild-with-fabric-8
+        run: mvn clean verify -Pbuild-with-fabric-8
